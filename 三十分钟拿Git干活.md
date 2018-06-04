@@ -1,4 +1,4 @@
-## 十分钟了解Git干货版
+## 三十分钟拿Git干活
 
 ### 1.为什么使用git?
 
@@ -140,7 +140,7 @@ git merge new-fenzhi
 git clone  xxxxx.git
 ```
 
-​	2.提交到github.
+​	2.提交到github，第一次这么做
 
 ```
 git remote add origin https://github.com/breaddream/helloGit.git
@@ -153,7 +153,15 @@ git push -u origin master
 git remote rm origin
 ```
 
+第二次以后这么做，
 
+```
+git push
+```
+
+### 8.后续学习
+
+​	上面这些适合个人开发者，如果你是一个部门主管，那么你就要会搭建内网git服务器，因为公司项目有保密性要求，是不可能让你随便往git上传的。如果团队很小，你自己搭建就ok了进行权限管理，如果公司已经有一定规模比如100人团队，就需要有linux程序员进行严格的权限管理了，尤其对源代码有很高保密性要求的公司，甚至员工的修改和操作都会有记录。有兴趣的同学可以试着搭建一个git服务器供团队使用。
 
 
 
